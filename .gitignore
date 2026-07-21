@@ -1,0 +1,32 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Temp / Excel locks
+tmp/
+temp/
+*.tmp
+~$*
+
+# Large bulk source filings (keep README + optional small samples)
+filings/**/*.html
+filings/**/*.htm
+# Ignore bulk XBRL but allow the Cleco 2020 sample
+filings/**/*.xbrl
+filings/**/*.xml
+!filings/ClecoPowerLlc2020.xbrl
+!filings/README.md
+
+# Local env
+.env
+.env.*

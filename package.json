@@ -1,0 +1,31 @@
+{
+  "name": "ferc-form1-parser",
+  "version": "1.0.0",
+  "description": "Pipeline to extract standardized, R-friendly Excel files from FERC Form 1 HTML and XBRL filings",
+  "main": "run_all_ferc.js",
+  "scripts": {
+    "parse": "node run_all_ferc.js",
+    "test:xbrl": "node run_all_ferc.js filings/ClecoPowerLlc2020.xbrl",
+    "test:about-xbrl": "node fill_about_info_xbrl.js filings/ClecoPowerLlc2020.xbrl"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "FERC",
+    "Form 1",
+    "XBRL",
+    "iXBRL",
+    "utility",
+    "electric",
+    "parser",
+    "R",
+    "tidyverse"
+  ],
+  "author": "Jordi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JGARZO1/ferc-form1-parser.git"
+  }
+}
