@@ -137,6 +137,7 @@ ferc-form1-parser/
 ├── SWEPCO/
 ├── ENTERGY LA/
 ├── ENTERGY NOLA/
+├── examples/                    # Snapshot copies of sample outputs
 ├── package.json
 ├── LICENSE                      # MIT
 └── README.md
