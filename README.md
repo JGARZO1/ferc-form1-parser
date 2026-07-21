@@ -166,7 +166,6 @@ Built-in aliases (first match wins):
 | Entergy Louisiana | `ENTERGY LA` |
 | Cleco | `CLECO` |
 | SWEPCO / Southwestern Electric Power | `SWEPCO` |
-| Entergy (generic) | `ENTERGY` |
 
 Unknown respondents fall back to a cleaned brand token from the legal name or filename.
 
